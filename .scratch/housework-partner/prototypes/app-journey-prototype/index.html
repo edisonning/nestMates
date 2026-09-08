@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>家务搭档 · 小程序流程粗原型</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="workbench">
+  <aside class="review">
+    <a class="eyebrow" href="README.md">NESTMATES / PROTOTYPE</a>
+    <h1>把家的小事，<br>一起走一遍。</h1>
+    <p class="intro">本轮只讨论小程序的导航与操作路径。已有业务决议保持不变，页面组织等待你审阅。</p>
+    <div class="review-block"><span class="number">01</span><h2>先比较入口</h2><p>A 四栏直达 · B 家庭首页 · C 任务优先。底部深色切换条仅属于审阅工具。</p></div>
+    <div class="review-block"><span class="number">02</span><h2>试走一次协作</h2><p>认领家务 → 本人打卡 → 查看天平与动态 → 兑换心愿 → 盖章或取消。</p></div>
+    <div class="review-block"><span class="number">03</span><h2>再看不顺利的时候</h2><p>补记与撤销、改期和暂停、提交结果不明、家庭停用与退出。</p></div>
+    <details class="lab" open><summary>原型演示台 · 不属于小程序</summary>
+      <label>加载独立场景<select id="scenario"><option value="paired">双人家庭 · 有待办与记录</option><option value="first">首次进入 · 尚无家庭</option><option value="invite">受邀加入 · 有效邀请</option><option value="expired">受邀加入 · 邀请已过期</option><option value="single">单人成家 · 等待伴侣</option><option value="empty">双人家庭 · 空白起步</option><option value="disabled">家庭停用 · 历史只读</option><option value="archived">家庭归档 · 已取消退分</option><option value="negative">更正后 · 可用积分为负</option><option value="read-error">读取失败 · 可重试</option></select></label>
+      <label>下一次提交<select id="failure"><option value="none">正常返回</option><option value="failed">明确失败 · 保留输入</option><option value="unknown">已处理但返回不明 · 查询结果</option></select></label>
+      <div class="row"><button data-action="reset">重置此场景</button><button data-action="partner-joins">模拟伴侣加入</button><button data-action="platform-restores">模拟平台恢复</button></div>
+      <p class="hint">固定演示日：2026 年 9 月 8 日（北京时间）。仅模拟数据、内存交互；刷新重置。演示台不提供切换打卡身份。</p>
+      <details><summary>查看当前模拟状态</summary><pre id="state"></pre></details>
+    </details>
+    <p class="footnote">粗原型 · 待审阅<br>微信登录、分享、服务器及真实并发未接入。</p>
+  </aside>
+  <section class="phone" aria-label="小程序预览">
+    <div class="phone-status"><span>9:41</span><span>家务搭档 <span class="capsule">···　◉</span></span></div>
+    <div id="app"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </section>
+</div>
+<nav class="switcher" aria-label="原型导航方案"><button data-action="variant-prev" aria-label="上一个方案">←</button><span id="variant-label"></span><button data-action="variant-next" aria-label="下一个方案">→</button></nav>
+<dialog id="modal" aria-labelledby="modal-title"><div id="modal-body"></div></dialog>
+<script src="app.js"></script>
+</body></html>

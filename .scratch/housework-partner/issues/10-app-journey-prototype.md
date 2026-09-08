@@ -5,8 +5,8 @@ Parent: [家务搭档首版产品决策地图](../map.md)
 Labels: wayfinder:prototype
 Type: prototype
 Mode: HITL
-Status: open
-Assignee: unassigned
+Status: claimed
+Assignee: Codex
 Blocked by: 06, 07, 08, 13
 Dependencies: [协作天平怎样表达比例而不要求五五开](06-balance-prototype.md)；[心愿兑换与承诺兑现如何形成可关闭的流程](07-wish-fulfillment.md)；[公共家务预设与默认特权模板如何维护和生效](08-public-templates.md)；[日期调整与恢复如何避免待办重复或消失](13-calendar-boundaries.md)
 
@@ -27,6 +27,11 @@ Dependencies: [协作天平怎样表达比例而不要求五五开](06-balance-p
 - 用户实际审阅原型后再解决，记录接受的路径与尚需处理的反馈。
 
 ## Comments
+
+- 2026-09-08：用户在核对 Wayfinder 进度后确认“嗯那你开始吧”，本会话领取本工单。开始制作承接既有决议的小程序流程粗原型；导航和路径候选等待用户审阅，不将制作完成等同于决策 resolved。
+
+- 2026-09-08：第一轮[可点击原型](../prototypes/app-journey-prototype/index.html)已制作，见[启动与试走说明](../prototypes/app-journey-prototype/README.md)、[浏览器检查](../prototypes/app-journey-prototype/verification.md)。A 四栏直达、B 家庭首页、C 任务优先是全局导航候选，天平继续沿用已确认 B 双方对照。主要协作路径已串联，部分日期组合仅展示规则说明；不宣称正式小程序或完整调度实现。下一次与用户交流优先确认全局导航，再继续逐项审阅路径，Status 保持 claimed。
+- 2026-09-08：使用本机 `/Users/dalianqun/.agents/skills/wayfinder/SKILL.md`、`prototype/SKILL.md` 及 `UI.md`，并读取 grilling、domain-modeling。Wayfinder 要求 HITL 决策来自真实用户交流，prototype 要求用户反应后才捕获结论；当前未记录 Answer、未追加地图 Decisions so far。原型留在本地独立分支 `codex/prototype-app-journey-20260908`，未推送。
 
 - 建图时创建，尚未领取、讨论或解决。已确认边界见[家务搭档首版规划输入](../brief.md)，不得把建议当作用户决议。
 - 2026-09-08：[协作天平决议](06-balance-prototype.md#answer)已确认 B「双方对照」与自然月口径。本工单在完整导航中承接其信息顺序，完善记录入口/列表范围、积分页面路径及加载失败恢复，不重开已决比例和特殊状态规则；控制台、模拟场景按钮与 A/B/C 切换器不是正式业务功能。其余依赖仍未全部解决，本工单保持 open、未领取。
