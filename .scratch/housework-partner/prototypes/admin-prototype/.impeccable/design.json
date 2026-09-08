@@ -1,0 +1,21 @@
+{
+  "scope": "admin-prototype only; descriptive snapshot, not a product design system",
+  "source": "../index.html",
+  "focus": {
+    "outline": "3px solid #7959ac",
+    "outlineOffset": "3px"
+  },
+  "dialog": {
+    "boxShadow": "0 14px 60px #18251e33",
+    "backdrop": "#18251e66"
+  },
+  "motion": {
+    "buttonTransition": "background .16s ease-out",
+    "reducedMotion": "transitions disabled"
+  },
+  "breakpoints": {
+    "compact": "1100px",
+    "mobile": "760px"
+  },
+  "confirmation": "Q1-Q6 confirmed by the user on 2026-09-08. Prototype page organization, operation paths and messages accepted; not production validation."
+}

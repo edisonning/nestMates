@@ -1,0 +1,8 @@
+# macOS 文件夹元数据
+.DS_Store
+
+# 浏览器检查产生的临时日志与页面快照
+.playwright-cli/
+
+# 项目输出文件
+/output/
