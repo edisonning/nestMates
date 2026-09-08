@@ -31,6 +31,7 @@ Status: open
 - [平台家庭管理、运营指标与客服权限如何划界](issues/09-admin-permissions.md#answer) — 两类管理员按权限管理最少家庭资料、单户停用恢复与汇总指标；保留操作记录，首版无反馈、客服授权或账号注销。
 
 - [平台后台如何呈现安全且够用的运营路径](issues/11-admin-prototype.md#answer) — 确认按角色左侧导航、独立家庭处理与模板发布对照，后台关键路径及异常提示已通过粗原型审阅。
+- [日期调整与恢复如何避免待办重复或消失](issues/13-calendar-boundaries.md#answer) — 预览与固定本次分开，改期及周期修改明确接续日期；暂停与停用分别恢复，轮流沿有效日历，后一期已固定时撤销旧次只回历史。
 
 ## Not yet specified
 
