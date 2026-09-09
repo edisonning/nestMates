@@ -122,7 +122,7 @@ Dependencies: [协作天平怎样表达比例而不要求五五开](06-balance-p
 ### 原型资产与已有证据
 
 - [可点击原型](../prototypes/app-journey-prototype/index.html)、[启动与试走说明](../prototypes/app-journey-prototype/README.md)、[浏览器检查记录](../prototypes/app-journey-prototype/verification.md)。
-- 当前留档分支：`codex/prototype-app-invitation-20260909`。邀请入口代码调整见提交 `3ba17cd`，后续审阅记录保存在同分支；未推送或合并。
+- 来源分支：`codex/prototype-app-invitation-20260909`。邀请入口代码调整见提交 `3ba17cd`，结案提交为 `e3da759`；2026 年 9 月 9 日按用户明确要求快进合并到本地 `main`，尚未推送远程。
 - 本地模拟已检查本人打卡、公共认领、补记更正撤销、兑换取消、归档退分、单次与长期值区分、停用恢复、查询结果和输入保留等代表路径。详细数值、检查时间及未覆盖项见检查记录。
 - 本轮独立查询场景只新增一次有效完成与 20 分，撒花一次；归档场景退回原实扣 60 分；恢复场景未重复增加记录、积分或待兑现。
 - 既有 320／375 像素检查记录保留；本次邀请入口调整已查看实际页面，语法及差异空白检查通过。没有宣称全量无障碍或真实设备验收。

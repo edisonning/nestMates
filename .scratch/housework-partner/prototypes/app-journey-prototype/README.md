@@ -65,6 +65,6 @@ python3 -m http.server 8768 --bind 127.0.0.1 --directory .scratch/housework-part
 
 心愿完成操作已按用户确认改为“我已收到，确认完成”，卡片与二次确认使用相同文案。确认成功后在手机预览内显示短暂盖章反馈；明确失败不盖章，返回不明则查询到结果后才盖章。积分及已决完成权限、不可撤销规则不变。
 
-当前原型及审阅记录保存在本地独立分支 `codex/prototype-app-invitation-20260909`，未推送、未合并主分支；较早的原型分支记录见工单 Comments。页面路径决策已结案，下一步是[首版验收与交接](../../issues/12-acceptance-handoff.md)，该工单已解除阻塞、尚未领取。
+当前原型及审阅记录已于 2026 年 9 月 9 日按用户要求合并到本地 `main`，来源分支为 `codex/prototype-app-invitation-20260909`，尚未推送远程；较早的原型分支记录见工单 Comments。页面路径决策已结案，下一步是[首版验收与交接](../../issues/12-acceptance-handoff.md)，该工单已解除阻塞、尚未领取。
 
 使用 Wayfinder 的人机共同决策原则：原型供真实用户反应，不把制作或浏览器检查当作用户已确认。技能实际安装路径见本轮工单 Comments。浏览器试走证据见 [verification.md](verification.md)。
